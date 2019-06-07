@@ -25,3 +25,26 @@ for i in str
 {
     print(i)
 }
+for i in str.indices
+{
+    print(str)
+}
+
+print(str)
+print("-------- range")
+let index = str.firstIndex(of: " ") ?? str.endIndex
+
+let newStr = [..<index]
+
+print(newStr)
+
+for i in newStr
+{
+print(i)
+}
+let a = 1...10
+print(a)
+for i in a
+{
+    print(i)
+}
